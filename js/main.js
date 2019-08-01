@@ -6,8 +6,8 @@ $('#addSkill').on('click', function() {
     let $li = $(`<li><button>X</button>${input}</li>`);
    
 
-    // $('ul').append($li);
-    // $('input').val("");
+    $('ul').append($li);
+    $('input').val("");
 });
 
 $('ul').on('click', 'button', function() {
