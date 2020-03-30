@@ -1,6 +1,3 @@
-
-
-
 $('#addSkill').on('click', function() {
     input = document.querySelector('input').value;
     let $li = $(`<li><button>X</button>${input}</li>`);

@@ -15,7 +15,8 @@ section {
 }
 header {
    font-size: 20px;
-   height: 5vh;
+   height: 40px;
+   width: 250px;
    display: flex;
    color: white;
    justify-content: center;
@@ -26,6 +27,7 @@ input {
     width: 250px;
     height: 40px;
     font-size: 20px;
+    margin: 10px 0 10px 0;
 }   
 button {
     width: 90px;
